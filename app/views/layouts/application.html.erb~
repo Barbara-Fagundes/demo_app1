@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DemoApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track': 'reload' into application.html.erb %> 
+    <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload'into application.html.erb %> 
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
